@@ -23,3 +23,7 @@ class TestFibonacci(unittest.TestCase):
         self.assertGreaterEqual(fibo(5), 5)
     def equalOrLess(self):
         self.assertLessEqual(fibo(3), 2)
+
+if __name__ == '__main__':
+  unittest.main()
+  
