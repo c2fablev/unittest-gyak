@@ -1,1 +1,1 @@
-Szia világ! - mondta a házsártos öregasszony.nhfdfksfkfj
+Szia világ! - mondta a házsártos öregasszony. the öregasszony is dead. :(
