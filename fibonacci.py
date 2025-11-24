@@ -6,22 +6,22 @@ def fibo(n :int):
     prevTmp2 = 0
     if n <= 0:
         return 0
-    for i in range(0,n-1):
+    for i in range(0,int(n)-1):
         prevTmp2 = prevTmp
         prevTmp = tmp
         tmp = prevTmp + prevTmp2
     return tmp
 
 class TestFibonacci(unittest.TestCase):
-    def Negative(self):
+    def test_Negative(self):
         self.assertEqual(fibo(-2), 0)
-    def isWorking(self):
+    def test_isWorking(self):
         self.assertEqual(fibo(10), 55)
-    def floatNum(self):
+    def test_floatNum(self):
         self.assertGreater(fibo(2.3), 0)
-    def equalOrGrater(self):
+    def test_equalOrGrater(self):
         self.assertGreaterEqual(fibo(5), 5)
-    def equalOrLess(self):
+    def test_equalOrLess(self):
         self.assertLessEqual(fibo(3), 2)
 
 if __name__ == '__main__':
